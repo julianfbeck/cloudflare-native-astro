@@ -3,7 +3,7 @@
 type KVNamespace = import("@cloudflare/workers-types").KVNamespace;
 type ENV = {
   // replace `MY_KV` with your KV namespace
- test: KVNamespace;
+  test: KVNamespace;
 };
 
 // use a default runtime configuration (advanced mode).
