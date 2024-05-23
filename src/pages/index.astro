@@ -4,6 +4,7 @@ import Card from "../components/Card.astro";
 
 const myKV = Astro.locals.runtime.env.test;
 const value = await myKV.get("key");
+await myKV.put("key", "value " + Date().toString());
 ---
 
 <Layout title="Welcome to Astro.">
