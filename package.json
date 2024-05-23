@@ -12,7 +12,10 @@
   "dependencies": {
     "@astrojs/check": "^0.7.0",
     "@astrojs/cloudflare": "^10.2.6",
+    "@cloudflare/workers-types": "^4.20240512.0",
     "astro": "^4.9.1",
+    "miniflare": "^3.20240512.0",
+    "runtime": "link:@astrojs/cloudflare/runtime",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
