@@ -1,5 +1,5 @@
 name = "cloudflare-native-astro"
-main = "dist/worker/index.js"
+# main = "dist/worker/index.js"
 pages_build_output_dir = "dist/"
 # Automatically place your workloads in an optimal location to minimize latency.
 # If you are running back-end logic in a Worker, running it closer to your back-end infrastructure
