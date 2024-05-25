@@ -50,10 +50,10 @@ id = "81086aaef64f4bcb9c2464b9b6073fb3"
 binding = "QUEUES"
 queue = "openpoll"
 
-# Bind a Queue consumer. Queue Consumers can retrieve tasks scheduled by Producers to act on them.
-# Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#queues
-[[queues.consumers]]
-queue = "openpoll"
+# # Bind a Queue consumer. Queue Consumers can retrieve tasks scheduled by Producers to act on them.
+# # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#queues
+# [[queues.consumers]]
+# queue = "openpoll"
 
 # Bind a dispatch namespace. Use Workers for Platforms to deploy serverless functions programmatically on behalf of your customers.
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#dispatch-namespace-bindings-workers-for-platforms
