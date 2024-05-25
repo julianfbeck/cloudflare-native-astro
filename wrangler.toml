@@ -50,6 +50,13 @@ id = "81086aaef64f4bcb9c2464b9b6073fb3"
 binding = "QUEUES"
 queue = "openpoll"
 
+[durable_objects]
+bindings = [
+	{ name = "openpoll", class_name = "OpenPoll" },
+	{ name = "limiters", class_name = "RateLimiter" },
+]
+
+
 # # Bind a Queue consumer. Queue Consumers can retrieve tasks scheduled by Producers to act on them.
 # # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#queues
 # [[queues.consumers]]
