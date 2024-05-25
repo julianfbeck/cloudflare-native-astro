@@ -1,4 +1,3 @@
-#:schema node_modules/wrangler/config-schema.json
 name = "cloudflare-native-astro"
 main = "dist/worker/index.js"
 # Automatically place your workloads in an optimal location to minimize latency.
