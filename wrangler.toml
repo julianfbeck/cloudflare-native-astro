@@ -51,13 +51,7 @@ binding = "QUEUES"
 queue = "openpoll"
 
 [durable_objects]
-bindings = [
-  { name = "DOBJECT", class_name = "DObject" }
-]
-
-[[migrations]]
-tag = "v1"
-new_classes = ["DOBject"]
+bindings = [{ name = "DOBJECT", class_name = "DObject" }]
 
 
 # # Bind a Queue consumer. Queue Consumers can retrieve tasks scheduled by Producers to act on them.
